@@ -4,4 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.105"
+confique = { version = "0.5.0", features = ["toml"] }
 gguf-rs = "0.1.8"
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.2.3"
